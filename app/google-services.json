@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "751503076731",
+    "firebase_url": "https://kharaa-android-app.firebaseio.com",
+    "project_id": "kharaa-android-app",
+    "storage_bucket": "kharaa-android-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:751503076731:android:151d8b638e420048",
+        "android_client_info": {
+          "package_name": "com.suvy.kharaa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "751503076731-72l1q6l3c76o5scoaj11e51aq4uh6qkq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.suvy.kharaa",
+            "certificate_hash": "dbb3bb3c7045925afaf541dd8aa6b1c18509aeba"
+          }
+        },
+        {
+          "client_id": "751503076731-fedbq0p3bb9lmt4fcprk3kjqlkobq7hd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBr8zNz855uFc2NzIR2RR-jT0nyIBeq2W8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "751503076731-fedbq0p3bb9lmt4fcprk3kjqlkobq7hd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
