@@ -18,6 +18,7 @@ import android.support.annotation.RequiresApi;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.view.KeyEvent;
 import android.webkit.ValueCallback;
 import android.webkit.WebChromeClient;
 import android.webkit.WebSettings;
@@ -38,6 +39,9 @@ public class HomeActivity extends AppCompatActivity {
   private String mCameraPhotoPath;
   private ValueCallback<Uri> mUploadMessage;
   private Uri mCapturedImageURI = null;
+  private WebView mWebView;
+
+
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
@@ -251,5 +255,21 @@ public class HomeActivity extends AppCompatActivity {
                             }
                           });
     alertDialog.show();
+  }
+
+  @Override
+  public boolean onKeyDown(int keyCode, KeyEvent event) {
+    if (event.getAction() == KeyEvent.ACTION_DOWN) {
+      switch (keyCode) {
+        case KeyEvent.KEYCODE_BACK:
+          mWebView = (WebView) findViewById(R.id.myWebView);
+          if (mWebView.canGoBack()) {
+            mWebView.goBack();
+          }
+          return true;
+      }
+
+    }
+    return super.onKeyDown(keyCode, event);
   }
 }
