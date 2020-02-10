@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:dist="http://schemas.android.com/apk/distribution"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.suvy.kharaa">
+    package="com.suvy.kharaaapp">
 
     <dist:module dist:instant="true" />
 
@@ -23,8 +23,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name="com.suvy.kharaa.HomeActivity"></activity>
-        <activity android:name="com.suvy.kharaa.MainActivity">
+        <activity android:name="com.suvy.kharaaapp.HomeActivity"></activity>
+        <activity android:name="com.suvy.kharaaapp.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -32,7 +32,7 @@
             </intent-filter>
         </activity>
 
-        <service android:name=".Service.MyFirebaseInstanceService">
+        <service android:name="com.suvy.kharaaapp.Service.MyFirebaseInstanceService">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT"/>
             </intent-filter>

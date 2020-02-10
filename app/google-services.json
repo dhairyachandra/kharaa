@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:751503076731:android:151d8b638e420048",
         "android_client_info": {
-          "package_name": "com.suvy.kharaa"
+          "package_name": "com.suvy.kharaaapp"
         }
       },
       "oauth_client": [
@@ -18,7 +18,7 @@
           "client_id": "751503076731-72l1q6l3c76o5scoaj11e51aq4uh6qkq.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.suvy.kharaa",
+            "package_name": "com.suvy.kharaaapp",
             "certificate_hash": "dbb3bb3c7045925afaf541dd8aa6b1c18509aeba"
           }
         },
